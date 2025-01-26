@@ -17,6 +17,16 @@ I am a passionate web developer with a keen interest in building dynamic and res
 
 ---
 
+## Repository
+
+To clone this repository and explore the projects, use the following command:
+
+```bash
+git clone https://github.com/webdeveloperdesigner/Intern.git
+```
+
+---
+
 ## Weekly Progress
 
 ### Week 1 (January 6 - January 15, 2025)
@@ -31,6 +41,7 @@ I am a passionate web developer with a keen interest in building dynamic and res
   - Gained hands-on experience in HTML and CSS.
   - Developed skills in list styling and responsive web design principles.
 - **Bonus Challenge**: Added hover effects for list items and designed unique header and footer sections for a professional look.
+- **Code Link**: [Week 1: Personal Bucket List](https://github.com/webdeveloperdesigner/Intern/tree/main/Project1%20-%20Bucket%20List)
 
 ---
 
@@ -54,6 +65,7 @@ I am a passionate web developer with a keen interest in building dynamic and res
   - **HTML**: Created the structure of the image slider.
   - **CSS**: Styled the slider with animations and transitions.
   - **JavaScript**: Added functionality for user interactions and automated transitions.
+- **Code Link**: [Week 2: Dynamic Image Slider](https://github.com/webdeveloperdesigner/Intern/tree/main/Project%202%20-%20Image%20Slider)
 
 ---
 
