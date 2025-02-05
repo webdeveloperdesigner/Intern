@@ -52,10 +52,7 @@ git clone https://github.com/webdeveloperdesigner/Intern.git
 - **Project Highlights**:
   - **HTML Structure**: Built a container for the image slider with placeholders for images and navigation controls.
   - **CSS Styling**: Styled the slider container and images, adding smooth sliding animations and ensuring responsiveness across various screen sizes.
-  - **JavaScript Functionality**:
-    - Implemented logic for navigating between images.
-    - Added functionality for auto-sliding images at set intervals.
-    - Included navigation controls for user interaction (e.g., previous/next buttons).
+ 
 - **Optional Enhancements** (Implemented):
   - Thumbnail navigation for selecting specific images.
   - Dynamic captions and descriptions displayed as images change.
@@ -66,6 +63,25 @@ git clone https://github.com/webdeveloperdesigner/Intern.git
   - **CSS**: Styled the slider with animations and transitions.
   - **JavaScript**: Added functionality for user interactions and automated transitions.
 - **Code Link**: [Week 2: Dynamic Image Slider](https://github.com/webdeveloperdesigner/Intern/tree/main/Project%202%20-%20Image%20Slider)
+
+---
+
+### Week 3 (January 27 - February 5, 2025)
+
+#### **Project: E-Commerce**
+- **Objective**: To create a functional and visually appealing e-commerce product page using HTML and CSS.
+- **Project Highlights**:
+  - **HTML Structure**: Built a clean and user-friendly layout for the product page, including sections for the product image, name, description, price, and an "Add-to-Cart" button.
+  - **CSS Styling**: Applied modern design principles to style the page, ensuring responsiveness and a visually attractive interface across various screen sizes.
+  - **Navigation Bar**: Incorporated a navigation bar linking to other pages like Home, Shop, and Contact for easy navigation.
+- **Optional Enhancements** (Implemented):
+  - **Hover Effects**: Added hover effects on product images and buttons for an interactive experience.
+  - **Product Gallery/Carousel**: Implemented an interactive product gallery for displaying multiple product images.
+  - **Quick View Popup**: Created a popup feature for a quick view of product details.
+- **Technologies Used**:
+  - **HTML**: Designed the structure of the product page and sections.
+  - **CSS**: Styled the layout, ensuring a clean, modern design and responsiveness.
+- **Code Link**: [Week 3: E-Commerce](https://github.com/webdeveloperdesigner/Intern/tree/main/Project3%20-%20E-Com)
 
 ---
 
