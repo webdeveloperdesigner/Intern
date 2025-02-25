@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powers of Attraction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Bevan&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-size: 100%;
+            line-height: 1.5;
+            font-family: "Roboto Slab", sans-serif;
+            background: rgb(29, 29, 69);
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: #fff;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .picture-box {
+            flex: 50%;
+            height: 100vh;
+            min-height: 900px;
+            /* background: url('https://wallpaper.forfun.com/fetch/f2/f23c84823c7a86c5ff049d2aced2d28a.jpeg?h=600&r=0.5') no-repeat center center/cover; */
+            background: url('./r.jpg') no-repeat center center/cover;
+        }
+        .top-matter {
+            flex: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgb(240, 255, 255);
+            padding: 2em;
+        }
+        .title-box h1 {
+            font-size: 5em;
+            text-align: center;
+            font-family: Bevan, sans-serif;
+            color: #222;
+        }
+        .title-box h1 span {
+            display: block;
+            color: tomato;
+        }
+        .byline {
+            font-size: 1.2em;
+            color: #555;
+            text-align: right;
+        }
+        .byline p:first-child {
+            font-style: italic;
+        }
+        .main-article {
+            padding: 4em 2em;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #fff;
+        }
+        .main-article section {
+            width: 48%;
+        }
+        .main-article p {
+            margin-bottom: 16px;
+            text-indent: 1em;
+        }
+        .main-article section:first-child p:first-child {
+            text-indent: 0;
+        }
+        .main-article section:first-child p:first-child::first-letter {
+            float: left;
+            color: tomato;
+            font-size: 81px;
+            line-height: 60px;
+            padding-top: 5px;
+            padding-right: 8px;
+            padding-left: 3px;
+            font-weight: 100;
+        }
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .picture-box, .top-matter {
+                flex: 100%;
+                height: auto;
+                min-height: auto;
+            }
+            .title-box h1 {
+                font-size: 3em;
+            }
+            .main-article section {
+                width: 100%;
+            }
+        }
+        .subscribe-btn {
+            background: #b39acd;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+        button {
+            background: #6a11cb;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #541fb3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="picture-box"></div>
+        <div class="top-matter">
+            <div class="title-box">
+                <h1>Powers&nbsp;of <span>Attraction</span></h1>
+            </div>
+            <div class="byline">
+                <p>In the modern world chlorem ipsum dolor sit amet...</p>
+                <p>By VK Gamer</p>
+            </div>
+        </div>
+        <div class="main-article">
+            <section>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <p>Velit enim assumenda commodi quas minus fugiat...</p>
+                <p>Voluptates quaerat, tenetur quos incidunt ipsum eaque fugit...</p>
+            </section>
+            <section>
+                <p>Aliquid voluptatem aspernatur, non perferendis...</p>
+                <p>Esse a dolorem modi rem sunt ex...</p>
+                <p>Commodi dolorem eligendi qui, reprehenderit tempora...</p>
+            </section>
+            <section>
+                <p>Aliquid voluptatem aspernatur, non perferendis...</p>
+                <p>Esse a dolorem modi rem sunt ex...</p>
+                <p>Commodi dolorem eligendi qui, reprehenderit tempora...</p>
+            </section>
+            <section>
+                <p>Aliquid voluptatem aspernatur, non perferendis...</p>
+                <p>Esse a dolorem modi rem sunt ex...</p>
+                <p>Commodi dolorem eligendi qui, reprehenderit tempora...</p>
+            </section>
+            <section>
+                <p>Aliquid voluptatem aspernatur, non perferendis...</p>
+                <p>Esse a dolorem modi rem sunt ex...</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, atque! Aliquam saepe dolore aut expedita, tenetur amet non debitis! Est at architecto consequuntur, dolorum modi molestiae possimus, optio voluptatem ipsa qui consectetur tempore nobis incidunt quam sint sunt sapiente vero ad libero adipisci dolores officia! Eligendi maiores qui, odit ipsam aspernatur eaque tempora enim quaerat reprehenderit et vero velit ipsum, repellendus voluptatibus delectus nulla? Quisquam rem repellat minus accusantium, impedit, soluta nisi assumenda similique harum ad veniam asperiores non est fugit deleniti nam enim cupiditate dolores in autem ut eligendi labore incidunt tenetur? Saepe, beatae quae. Optio nulla numquam laudantium cumque, commodi facilis, totam, velit quisquam repellendus non blanditiis voluptas cupiditate ab quia odio nihil nemo. Unde eos pariatur quod delectus voluptatem maxime nostrum, quaerat perspiciatis quam consequuntur impedit architecto dolorem totam ullam laboriosam itaque veniam deleniti! Fuga soluta numquam quia blanditiis pariatur eum porro veniam maiores rem odio? Eveniet saepe, doloremque quibusdam, dolorem, inventore veritatis animi aperiam vero dignissimos corrupti praesentium. Maiores numquam earum impedit minima distinctio voluptatibus doloremque minus quia cumque facere exercitationem quidem, corporis assumenda commodi delectus! Quod similique commodi rem, accusamus quam praesentium libero optio non reiciendis vel deleniti tempora inventore, est maxime sint earum? Nulla voluptatem doloribus molestias, alias nesciunt at aperiam quae sed omnis non, minima cumque quaerat, maxime voluptas tempore itaque iure sit commodi? Deleniti minus, aspernatur rem obcaecati nesciunt quasi? Molestias voluptate quidem nulla, architecto eos corrupti quisquam aspernatur odio deleniti aliquid nostrum itaque? Porro debitis laudantium necessitatibus, rem assumenda corrupti blanditiis sit qui perferendis ad iure error maxime totam doloremque earum amet exercitationem sequi maiores. Ut maiores aspernatur sed, voluptatum, tenetur autem incidunt temporibus et suscipit error sint! Mollitia nemo expedita sunt aliquam provident, tenetur consectetur natus sit eius necessitatibus non consequuntur magnam vero laborum, aut omnis consequatur veniam facilis! Blanditiis aliquid, repudiandae dolorum accusamus praesentium perferendis sapiente, voluptates vel neque est corrupti sit cum quaerat ratione, ullam odit ad. Possimus est nam ut, laborum inventore, dicta fuga neque odio minima quibusdam delectus et! Quos, quisquam facilis asperiores esse, distinctio obcaecati accusamus dolores, repellendus a minima explicabo sint iure? Neque excepturi fugiat facilis, quasi inventore commodi. Ratione impedit iste alias doloribus velit suscipit inventore omnis magnam quos. Quo, assumenda nulla quidem, enim neque cum accusamus est saepe culpa ipsa magnam odit necessitatibus provident officiis architecto, recusandae impedit in beatae? Vel, nobis veritatis aspernatur molestiae consectetur amet distinctio repellendus magnam error hic, maxime sint exercitationem. Saepe maiores libero vitae quaerat tenetur veniam quis, odio, suscipit atque ipsam quo recusandae, quam minus porro? Nihil ratione, corporis recusandae maxime eum officiis aliquid culpa earum explicabo quisquam repudiandae illum at sed modi numquam officia alias, exercitationem tenetur voluptatem, quia sit? Veritatis corporis quo similique ea officiis non placeat, deleniti tempora eveniet praesentium veniam est magni perferendis laboriosam quis optio nobis natus cumque sunt totam officia neque. Illum fugiat magnam veritatis sapiente iusto voluptatem harum. Consequatur hic omnis beatae repellendus obcaecati est provident, facilis animi nostrum! Suscipit odit illum et saepe, temporibus vitae eaque sapiente perferendis.</p>
+            </section>
+            <section>
+                <p>Aliquid voluptatem aspernatur, non perferendis...</p>
+                <p>Esse a dolorem modi rem sunt ex...</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, atque! Aliquam saepe dolore aut expedita, tenetur amet non debitis! Est at architecto consequuntur, dolorum modi molestiae possimus, optio voluptatem ipsa qui consectetur tempore nobis incidunt quam sint sunt sapiente vero ad libero adipisci dolores officia! Eligendi maiores qui, odit ipsam aspernatur eaque tempora enim quaerat reprehenderit et vero velit ipsum, repellendus voluptatibus delectus nulla? Quisquam rem repellat minus accusantium, impedit, soluta nisi assumenda similique harum ad veniam asperiores non est fugit deleniti nam enim cupiditate dolores in autem ut eligendi labore incidunt tenetur? Saepe, beatae quae. Optio nulla numquam laudantium cumque, commodi facilis, totam, velit quisquam repellendus non blanditiis voluptas cupiditate ab quia odio nihil nemo. Unde eos pariatur quod delectus voluptatem maxime nostrum, quaerat perspiciatis quam consequuntur impedit architecto dolorem totam ullam laboriosam itaque veniam deleniti! Fuga soluta numquam quia blanditiis pariatur eum porro veniam maiores rem odio? Eveniet saepe, doloremque quibusdam, dolorem, inventore veritatis animi aperiam vero dignissimos corrupti praesentium. Maiores numquam earum impedit minima distinctio voluptatibus doloremque minus quia cumque facere exercitationem quidem, corporis assumenda commodi delectus! Quod similique commodi rem, accusamus quam praesentium libero optio non reiciendis vel deleniti tempora inventore, est maxime sint earum? Nulla voluptatem doloribus molestias, alias nesciunt at aperiam quae sed omnis non, minima cumque quaerat, maxime voluptas tempore itaque iure sit commodi? Deleniti minus, aspernatur rem obcaecati nesciunt quasi? Molestias voluptate quidem nulla, architecto eos corrupti quisquam aspernatur odio deleniti aliquid nostrum itaque? Porro debitis laudantium necessitatibus, rem assumenda corrupti blanditiis sit qui perferendis ad iure error maxime totam doloremque earum amet exercitationem sequi maiores. Ut maiores aspernatur sed, voluptatum, tenetur autem incidunt temporibus et suscipit error sint! Mollitia nemo expedita sunt aliquam provident, tenetur consectetur natus sit eius necessitatibus non consequuntur magnam vero laborum, aut omnis consequatur veniam facilis! Blanditiis aliquid, repudiandae dolorum accusamus praesentium perferendis sapiente, voluptates vel neque est corrupti sit cum quaerat ratione, ullam odit ad. Possimus est nam ut, laborum inventore, dicta fuga neque odio minima quibusdam delectus et! Quos, quisquam facilis asperiores esse, distinctio obcaecati accusamus dolores, repellendus a minima explicabo sint iure? Neque excepturi fugiat facilis, quasi inventore commodi. Ratione impedit iste alias doloribus velit suscipit inventore omnis magnam quos. Quo, assumenda nulla quidem, enim neque cum accusamus est saepe culpa ipsa magnam odit necessitatibus provident officiis architecto, recusandae impedit in beatae? Vel, nobis veritatis aspernatur molestiae consectetur amet distinctio repellendus magnam error hic, maxime sint exercitationem. Saepe maiores libero vitae quaerat tenetur veniam quis, odio, suscipit atque ipsam quo recusandae, quam minus porro? Nihil ratione, corporis recusandae maxime eum officiis aliquid culpa earum explicabo quisquam repudiandae illum at sed modi numquam officia alias, exercitationem tenetur voluptatem, quia sit? Veritatis corporis quo similique ea officiis non placeat, deleniti tempora eveniet praesentium veniam est magni perferendis laboriosam quis optio nobis natus cumque sunt totam officia neque. Illum fugiat magnam veritatis sapiente iusto voluptatem harum. Consequatur hic omnis beatae repellendus obcaecati est provident, facilis animi nostrum! Suscipit odit illum et saepe, temporibus vitae eaque sapiente perferendis.</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="subscribe-btn">
+        <h2>Subscribe to Our Newsletter</h2>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button id="subscribeButton" class="hidden">Subscribe</button>
+    </div>
+
+    <script>
+        const emailInput = document.getElementById("email");
+        const subscribeButton = document.getElementById("subscribeButton");
+
+        emailInput.addEventListener("input", () => {
+            if (emailInput.value.includes("@") && emailInput.value.includes(".")) {
+                subscribeButton.classList.remove("hidden");
+            } else {
+                subscribeButton.classList.add("hidden");
+            }
+        });
+
+        subscribeButton.addEventListener("click", () => {
+            alert("Thank you for Subscribing! 🎉");
+        });
+    </script>
+    
+</body>
+</html>

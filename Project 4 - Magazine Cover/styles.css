@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #f3f9ff, #e2f1ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+}
+
+.flyer {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+    transition: 0.3s;
+}
+
+.flyer:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+/* Logo */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a76f4;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    color: #1e5ecb;
+    transform: scale(1.1);
+}
+
+/* Title */
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #0056b3;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a76f4;
+    margin-top: -5px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 15px 20px;
+    color: #555;
+    opacity: 0.9;
+}
+
+/* Image */
+.image-container {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 280px;
+    border: 3px solid #2a76f4;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    border-color: #1e5ecb;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    background: #2a76f4;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.subscribe-btn:hover {
+    background: #1e5ecb;
+    transform: scale(1.05);
+}
+
+/* Pagination Buttons */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pagination button {
+    background: #e3f0ff;
+    color: #2a76f4;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    flex: 1;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.pagination button:hover {
+    background: #2a76f4;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #2a76f4;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #1e5ecb;
+}
+
+/* Footer */
+.footer {
+    font-size: 12px;
+    margin-top: 15px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.footer:hover {
+    opacity: 1;
+    color: #2a76f4;
+}
+
+/* Mobile & Tablet Responsive */
+@media (max-width: 600px) {
+    .flyer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .image-container img {
+        max-width: 250px;
+    }
+
+    .subscribe-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .pagination button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
+}
