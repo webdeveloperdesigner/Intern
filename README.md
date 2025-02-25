@@ -85,6 +85,31 @@ git clone https://github.com/webdeveloperdesigner/Intern.git
 
 ---
 
+### Week 4 (February 12 - February 25, 2025)
+
+#### **Project: Magazine Cover**
+- **Objective**: To design a webpage that resembles the cover of a magazine, focusing on typography, layout design, and creative layering using only HTML and CSS.
+
+- **Project Highlights**:
+  - **Large Featured Image or Title Text**: Used a bold, eye-catching image or text as the centerpiece of the design.
+  - **Styled Article Headlines and Captions**: Implemented various font styles, sizes, and colors for a professional magazine-like layout.
+  - **Decorative Elements**: Added lines, shapes, and overlays to enhance visual appeal using CSS pseudo-elements (`::before`, `::after`).
+
+- **Enhancements Implemented**:
+  - **Typography Design**: Selected and applied fonts that complement the magazine theme using Google Fonts.
+  - **Layering with CSS**: Used `z-index`, transparency, and shadows to create depth in the design.
+  - **Responsive Design**: Ensured the magazine cover layout adapts well across different screen sizes.
+  - **Hover Effects**: Added interactive hover effects to key elements such as headlines and featured images.
+  - **Subscription CTA**: Designed a "Subscribe Now" button styled to match the magazine aesthetic.
+
+- **Technologies Used**:
+  - **HTML**: Structured the magazine cover layout.
+  - **CSS**: Styled the elements for a polished, professional look.
+
+- **Code Link**: [Week 4: Magazine Cover](https://github.com/webdeveloperdesigner/Intern/tree/main/Project%204%20-%20Magazine%20Cover)
+
+---
+
 ## Skills Developed
 
 - Front-End Development: Improved proficiency in HTML, CSS, and JavaScript.
